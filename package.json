@@ -1,0 +1,36 @@
+{
+  "name": "@anthropic/business-design",
+  "version": "1.0.0",
+  "description": "Markdown-based slash commands for business framework design",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthropics/business-design.git"
+  },
+  "homepage": "https://github.com/anthropics/business-design#readme",
+  "bugs": {
+    "url": "https://github.com/anthropics/business-design/issues"
+  },
+  "files": [
+    "commands",
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "claude-code",
+    "slash-commands",
+    "business-model-canvas",
+    "lean-canvas",
+    "value-proposition-canvas",
+    "swot",
+    "persona",
+    "competitive-analysis",
+    "market-sizing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
