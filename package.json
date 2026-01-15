@@ -1,6 +1,6 @@
 {
   "name": "business-design",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Markdown-based slash commands for business framework design",
   "type": "module",
   "repository": {
