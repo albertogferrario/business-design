@@ -16,7 +16,7 @@ None
 
 - [x] **Phase 1: Foundation** - Project structure and command scaffolding
 - [x] **Phase 2: Framework Commands** - BMC, Lean Canvas, VPC, SWOT commands
-- [ ] **Phase 3: Advanced Frameworks** - Personas, Competitive Analysis, Market Sizing
+- [x] **Phase 3: Advanced Frameworks** - Personas, Competitive Analysis, Market Sizing
 - [ ] **Phase 4: Integration** - Entity linking, project management, WebSearch
 
 ## Phase Details
@@ -50,9 +50,9 @@ Plans:
 **Plans**: TBD
 
 Plans:
-- [ ] 03-01: User Personas command
+- [x] 03-01: User Personas command
 - [x] 03-02: Competitive Analysis command
-- [ ] 03-03: Market Sizing command
+- [x] 03-03: Market Sizing command
 
 ### Phase 4: Integration
 **Goal**: Add entity linking, project management, and WebSearch integration
@@ -75,5 +75,5 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 |-------|----------------|--------|-----------|
 | 1. Foundation | 2/2 | Complete | 2026-01-15 |
 | 2. Framework Commands | 4/4 | Complete | 2026-01-15 |
-| 3. Advanced Frameworks | 2/3 | In progress | - |
+| 3. Advanced Frameworks | 3/3 | Complete | 2026-01-15 |
 | 4. Integration | 0/3 | Not started | - |
