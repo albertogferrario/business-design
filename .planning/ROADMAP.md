@@ -15,7 +15,7 @@ None
 - Decimal phases (2.1, 2.2): Urgent insertions (marked with INSERTED)
 
 - [x] **Phase 1: Foundation** - Project structure and command scaffolding
-- [ ] **Phase 2: Framework Commands** - BMC, Lean Canvas, VPC, SWOT commands (In progress)
+- [x] **Phase 2: Framework Commands** - BMC, Lean Canvas, VPC, SWOT commands
 - [ ] **Phase 3: Advanced Frameworks** - Personas, Competitive Analysis, Market Sizing
 - [ ] **Phase 4: Integration** - Entity linking, project management, WebSearch
 
@@ -41,7 +41,7 @@ Plans:
 - [x] 02-01: Business Model Canvas command
 - [x] 02-02: Lean Canvas command
 - [x] 02-03: Value Proposition Canvas command
-- [ ] 02-04: SWOT Analysis command
+- [x] 02-04: SWOT Analysis command
 
 ### Phase 3: Advanced Frameworks
 **Goal**: Implement advanced analysis frameworks (Personas, Competitive, Market Sizing)
@@ -74,6 +74,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 2/2 | Complete | 2026-01-15 |
-| 2. Framework Commands | 3/4 | In progress | - |
+| 2. Framework Commands | 4/4 | Complete | 2026-01-15 |
 | 3. Advanced Frameworks | 0/3 | Not started | - |
 | 4. Integration | 0/3 | Not started | - |
