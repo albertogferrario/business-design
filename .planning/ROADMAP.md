@@ -44,10 +44,10 @@ Plans:
 **Goal**: Configure package.json, npm metadata, and build scripts for publishing
 **Depends on**: Phase 5
 **Research**: Unlikely (standard npm patterns)
-**Plans**: TBD
+**Status**: Complete
 
 Plans:
-- [ ] 06-01: TBD (run /gsd:plan-phase 6 to break down)
+- [x] 06-01: npm package and CI/CD setup (completed 2026-01-15)
 
 #### Phase 7: Publication
 
@@ -68,5 +68,5 @@ Plans:
 | 3. Advanced Frameworks | v1.0 | 3/3 | Complete | 2026-01-15 |
 | 4. Integration | v1.0 | 3/3 | Complete | 2026-01-15 |
 | 5. Documentation | v1.1 | 1/1 | Complete | 2026-01-15 |
-| 6. Package Setup | v1.1 | 0/? | Not started | - |
+| 6. Package Setup | v1.1 | 1/1 | Complete | 2026-01-15 |
 | 7. Publication | v1.1 | 0/? | Not started | - |
