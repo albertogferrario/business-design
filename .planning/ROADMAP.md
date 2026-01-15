@@ -62,7 +62,7 @@ Plans:
 **Plans**: TBD
 
 Plans:
-- [ ] 04-01: Project management commands (create, list, view)
+- [x] 04-01: Project management commands (create, list, view)
 - [ ] 04-02: Entity linking between frameworks
 - [ ] 04-03: WebSearch integration for research
 
@@ -76,4 +76,4 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | 1. Foundation | 2/2 | Complete | 2026-01-15 |
 | 2. Framework Commands | 4/4 | Complete | 2026-01-15 |
 | 3. Advanced Frameworks | 3/3 | Complete | 2026-01-15 |
-| 4. Integration | 0/3 | Not started | - |
+| 4. Integration | 1/3 | In progress | - |
