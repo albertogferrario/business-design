@@ -12,20 +12,20 @@ Complete business framework coverage with full field fidelity — every framewor
 
 ### Validated
 
-(None yet — ship to validate)
+- ✓ Business Model Canvas command — v1.0
+- ✓ Lean Canvas command — v1.0
+- ✓ Value Proposition Canvas command — v1.0
+- ✓ SWOT Analysis command — v1.0
+- ✓ User Personas command — v1.0
+- ✓ Competitive Analysis command — v1.0
+- ✓ Market Sizing command — v1.0
+- ✓ Project management commands (create, list, view) — v1.0
+- ✓ Web research integration (WebSearch) — v1.0
+- ✓ Entity linking (targets, informs, complements, validates) — v1.0
 
 ### Active
 
-- [ ] Business Model Canvas command — 9 building blocks (Customer Segments, Value Propositions, Channels, Customer Relationships, Revenue Streams, Key Resources, Key Activities, Key Partnerships, Cost Structure)
-- [ ] Lean Canvas command — startup-focused adaptation (Problem, Solution, Key Metrics, Unique Value Proposition, Unfair Advantage, Channels, Customer Segments, Cost Structure, Revenue Streams)
-- [ ] Value Proposition Canvas command — customer-value fit (Customer Jobs, Pains, Gains ↔ Products/Services, Pain Relievers, Gain Creators)
-- [ ] SWOT Analysis command — strategic positioning (Strengths, Weaknesses, Opportunities, Threats)
-- [ ] User Personas command — customer archetypes (Demographics, Behaviors, Goals, Frustrations, Context)
-- [ ] Competitive Analysis command — market landscape (Competitors, Positioning, Features, Pricing, Strengths/Weaknesses)
-- [ ] Market Sizing command — opportunity quantification (TAM, SAM, SOM with methodology)
-- [ ] Project management commands — create, list, view projects
-- [ ] Web research integration — use Claude's WebSearch for AI-powered business research
-- [ ] Entity linking — relationships between frameworks (canvas → personas, SWOT → competitive analysis)
+(None — v1.0 complete)
 
 ### Out of Scope
 
@@ -59,9 +59,25 @@ This project creates a non-MCP equivalent of `business-design-mcp` for use as `/
 
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
-| Markdown commands over MCP | Builder app needs /dev integration, not MCP server | — Pending |
-| Local project storage | Keep business artifacts with their projects | — Pending |
-| WebSearch over OpenAI | Reduce external dependencies, leverage Claude's built-in capabilities | — Pending |
+| Markdown commands over MCP | Builder app needs /dev integration, not MCP server | ✓ Good |
+| Local project storage | Keep business artifacts with their projects | ✓ Good |
+| WebSearch over OpenAI | Reduce external dependencies, leverage Claude's built-in capabilities | ✓ Good |
+| Timestamp-based IDs | Natural chronological ordering | ✓ Good |
+| Dual file output (JSON + MD) | JSON for programmatic use, MD for human readability | ✓ Good |
+| 5-step process pattern | Consistent UX across all framework commands | ✓ Good |
+| Conversation-style prompting | Natural information gathering flow | ✓ Good |
+| Four entity link types | Clear semantic relationships between frameworks | ✓ Good |
+
+## Current State
+
+**v1.0 shipped:** 2026-01-15
+
+- 13 commands in `commands/business/`
+- 4 lib files in `lib/`
+- 4,624 lines of markdown
+- All 7 business frameworks implemented
+- Project management and entity linking complete
+- WebSearch research integration working
 
 ---
-*Last updated: 2026-01-15 after initialization*
+*Last updated: 2026-01-15 after v1.0 milestone*

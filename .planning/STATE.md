@@ -5,14 +5,14 @@
 See: .planning/PROJECT.md (updated 2026-01-15)
 
 **Core value:** Complete business framework coverage with full field fidelity
-**Current focus:** Milestone Complete — All 4 phases executed
+**Current focus:** v1.0 Complete — Ready for builder app integration
 
 ## Current Position
 
 Phase: 4 of 4 (Integration)
 Plan: 3 of 3 in current phase
-Status: Phase complete
-Last activity: 2026-01-15 — Completed 04-02-PLAN.md
+Status: Milestone complete
+Last activity: 2026-01-15 — v1.0 milestone shipped
 
 Progress: ██████████ 100% (12/12 plans)
 
@@ -32,43 +32,22 @@ Progress: ██████████ 100% (12/12 plans)
 | 3. Advanced Frameworks | 3/3 | 4 min | 1.3 min |
 | 4. Integration | 3/3 | 4 min | 1.3 min |
 
-**Recent Trend:**
-- Last 5 plans: 03-01 (1 min), 03-02 (1 min), 03-03 (2 min), 04-01 (1 min), 04-03 (2 min)
-- Trend: Consistent
-
 ## Accumulated Context
 
 ### Decisions
 
-Decisions are logged in PROJECT.md Key Decisions table.
-Recent decisions affecting current work:
-
-| Phase | Decision | Rationale |
-|-------|----------|-----------|
-| 01-01 | Timestamp-based IDs (YYYYMMDD-HHMMSS) | Natural chronological ordering |
-| 01-01 | Dual file output (JSON + MD) | JSON for programmatic use, MD for human readability |
-| 01-01 | Entity linking types | targets, informs, complements, validates |
-| 01-02 | Conversation-style prompting | Entry point -> follow-up -> probing -> decision gate |
-| 01-02 | Conductor command structure | Frontmatter + XML body for consistency |
-| 02-01 | 5-step process pattern | check_project -> gather_info -> create_entity -> update_project -> confirm |
-| 02-02 | Problem-first entry point | Lean Canvas methodology focuses on validation |
-| 02-03 | Customer Profile before Value Map | Establish customer understanding before solution mapping |
-| 02-04 | Context-first SWOT prompting | Strategic decision context before quadrant analysis |
-| 03-02 | Competitor-first gathering | Profile all competitors before mapping own position |
-| 03-03 | Numeric guidance prompting | Guide users to specific values with currency and unit |
-| 04-01 | Framework categorization | Canvas Frameworks vs Analysis Frameworks grouping |
-| 04-03 | Five research focus options | market, competitors, customers, technology, general for targeted queries |
+All decisions logged in PROJECT.md Key Decisions table.
 
 ### Pending Todos
 
-None yet.
+None.
 
 ### Blockers/Concerns
 
-None yet.
+None.
 
 ## Session Continuity
 
 Last session: 2026-01-15
-Stopped at: Phase 4 complete (Milestone complete)
+Stopped at: v1.0 milestone complete
 Resume file: None
