@@ -34,10 +34,10 @@ Build a markdown-based slash command system for business framework design. Start
 **Goal**: Write README, usage guides, and command reference documentation
 **Depends on**: v1.0 complete
 **Research**: Unlikely (internal documentation)
-**Plans**: TBD
+**Status**: Complete
 
 Plans:
-- [ ] 05-01: TBD (run /gsd:plan-phase 5 to break down)
+- [x] 05-01: README and LICENSE (completed 2026-01-15)
 
 #### Phase 6: Package Setup
 
@@ -67,6 +67,6 @@ Plans:
 | 2. Framework Commands | v1.0 | 4/4 | Complete | 2026-01-15 |
 | 3. Advanced Frameworks | v1.0 | 3/3 | Complete | 2026-01-15 |
 | 4. Integration | v1.0 | 3/3 | Complete | 2026-01-15 |
-| 5. Documentation | v1.1 | 0/? | Not started | - |
+| 5. Documentation | v1.1 | 1/1 | Complete | 2026-01-15 |
 | 6. Package Setup | v1.1 | 0/? | Not started | - |
 | 7. Publication | v1.1 | 0/? | Not started | - |
