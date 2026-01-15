@@ -11,6 +11,7 @@ Build a markdown-based slash command system for business framework design. Start
 ## Milestones
 
 - ✅ **v1.0 MVP** — Phases 1-4 (shipped 2026-01-15)
+- 🚧 **v1.1 Documentation & Publishing** — Phases 5-7 (in progress)
 
 ## Phases
 
@@ -24,6 +25,40 @@ Build a markdown-based slash command system for business framework design. Start
 
 </details>
 
+### 🚧 v1.1 Documentation & Publishing (In Progress)
+
+**Milestone Goal:** Package the business design commands for npm distribution with comprehensive documentation.
+
+#### Phase 5: Documentation
+
+**Goal**: Write README, usage guides, and command reference documentation
+**Depends on**: v1.0 complete
+**Research**: Unlikely (internal documentation)
+**Plans**: TBD
+
+Plans:
+- [ ] 05-01: TBD (run /gsd:plan-phase 5 to break down)
+
+#### Phase 6: Package Setup
+
+**Goal**: Configure package.json, npm metadata, and build scripts for publishing
+**Depends on**: Phase 5
+**Research**: Unlikely (standard npm patterns)
+**Plans**: TBD
+
+Plans:
+- [ ] 06-01: TBD (run /gsd:plan-phase 6 to break down)
+
+#### Phase 7: Publication
+
+**Goal**: Publish to npm, verify installation works, update project documentation
+**Depends on**: Phase 6
+**Research**: Unlikely (standard npm publish)
+**Plans**: TBD
+
+Plans:
+- [ ] 07-01: TBD (run /gsd:plan-phase 7 to break down)
+
 ## Progress
 
 | Phase | Milestone | Plans Complete | Status | Completed |
@@ -32,3 +67,6 @@ Build a markdown-based slash command system for business framework design. Start
 | 2. Framework Commands | v1.0 | 4/4 | Complete | 2026-01-15 |
 | 3. Advanced Frameworks | v1.0 | 3/3 | Complete | 2026-01-15 |
 | 4. Integration | v1.0 | 3/3 | Complete | 2026-01-15 |
+| 5. Documentation | v1.1 | 0/? | Not started | - |
+| 6. Package Setup | v1.1 | 0/? | Not started | - |
+| 7. Publication | v1.1 | 0/? | Not started | - |

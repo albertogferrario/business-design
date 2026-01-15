@@ -5,20 +5,20 @@
 See: .planning/PROJECT.md (updated 2026-01-15)
 
 **Core value:** Complete business framework coverage with full field fidelity
-**Current focus:** v1.0 Complete — Ready for builder app integration
+**Current focus:** v1.1 Documentation & Publishing — npm distribution
 
 ## Current Position
 
-Phase: 4 of 4 (Integration)
-Plan: 3 of 3 in current phase
-Status: Milestone complete
-Last activity: 2026-01-15 — v1.0 milestone shipped
+Phase: 5 of 7 (Documentation)
+Plan: Not started
+Status: Ready to plan
+Last activity: 2026-01-15 — Milestone v1.1 created
 
-Progress: ██████████ 100% (12/12 plans)
+Progress: ░░░░░░░░░░ 0%
 
 ## Performance Metrics
 
-**Velocity:**
+**Velocity (v1.0):**
 - Total plans completed: 12
 - Average duration: 1.6 min
 - Total execution time: 19 min
@@ -42,12 +42,17 @@ All decisions logged in PROJECT.md Key Decisions table.
 
 None.
 
-### Blockers/Concerns
+### Blockers/Concerns Carried Forward
 
 None.
+
+### Roadmap Evolution
+
+- v1.0 MVP: Core framework implementation (Phases 1-4) — shipped 2026-01-15
+- Milestone v1.1 created: Documentation & Publishing, 3 phases (Phase 5-7)
 
 ## Session Continuity
 
 Last session: 2026-01-15
-Stopped at: v1.0 milestone complete
+Stopped at: Milestone v1.1 initialization
 Resume file: None
