@@ -1,15 +1,15 @@
 {
-  "name": "@anthropic/business-design",
+  "name": "business-design",
   "version": "1.0.0",
   "description": "Markdown-based slash commands for business framework design",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anthropics/business-design.git"
+    "url": "git+https://github.com/albertogferrario/business-design.git"
   },
-  "homepage": "https://github.com/anthropics/business-design#readme",
+  "homepage": "https://github.com/albertogferrario/business-design#readme",
   "bugs": {
-    "url": "https://github.com/anthropics/business-design/issues"
+    "url": "https://github.com/albertogferrario/business-design/issues"
   },
   "files": [
     "commands",
