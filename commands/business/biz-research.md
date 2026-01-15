@@ -49,18 +49,26 @@ Run `biz:research <topic>` to conduct new research.
 ```
 
 **If files found:**
+Display table of saved research:
+
 ```
 Saved Research
 
 | Date | Topic |
 |------|-------|
-{for each file: extract date and topic from filename}
+| 2026-01-15 | ai-in-healthcare |
+| 2026-01-14 | subscription-pricing |
 
 View research: `biz:research --view {filename}`
 New research: `biz:research <topic>`
 ```
 
-Parse filenames (format: `{timestamp}-{slug}.md`) to extract date and topic.
+**Filename parsing:**
+- Format: `{YYYYMMDD-HHMMSS}-{slug}.md`
+- Extract date: First 8 characters, format as YYYY-MM-DD
+- Extract topic: Everything after timestamp, before .md, replace hyphens with spaces
+
+Example: `20260115-143022-ai-in-healthcare.md` -> Date: 2026-01-15, Topic: ai in healthcare
 
 Stop execution.
 </step>
@@ -69,8 +77,14 @@ Stop execution.
 View a saved research file:
 
 **1. Construct file path:**
+User may provide partial filename (just slug) or full filename:
+
 ```bash
-ls .planning/business/research/{filename}* 2>/dev/null | head -1
+# Try exact match first
+ls .planning/business/research/{filename}.md 2>/dev/null
+
+# If not found, try pattern match
+ls .planning/business/research/*{filename}* 2>/dev/null | head -1
 ```
 
 **If file not found:**
@@ -83,6 +97,14 @@ Stop execution.
 
 **If file found:**
 Read and display the file content using the Read tool.
+
+Display hint at end:
+```
+---
+Edit: Open .planning/business/research/{filename}
+Delete: rm .planning/business/research/{filename}
+List all: `biz:research --list`
+```
 
 Stop execution.
 </step>
@@ -319,8 +341,11 @@ List all: `biz:research --list`
 <success_criteria>
 - WebSearch tool used to gather information
 - Results synthesized into business-relevant insights
-- Key findings clearly presented
-- Recommendations are actionable
-- Sources always cited
-- Save/list/view functionality works
+- Key findings clearly presented (3-5 bullet points)
+- Recommendations are actionable (2-3 items)
+- Sources always cited with URLs
+- `biz:research <topic>` conducts new research
+- `biz:research --list` lists saved research with date and topic
+- `biz:research --view <file>` displays saved research content
+- Research can be saved to .planning/business/research/{timestamp}-{slug}.md
 </success_criteria>
