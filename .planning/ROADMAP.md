@@ -74,6 +74,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 2/2 | Complete | 2026-01-15 |
-| 2. Framework Commands | 1/4 | In progress | - |
+| 2. Framework Commands | 2/4 | In progress | - |
 | 3. Advanced Frameworks | 0/3 | Not started | - |
 | 4. Integration | 0/3 | Not started | - |
